@@ -5,5 +5,6 @@ public class Processor {
 	public int numberOfCourse;
 	public double ghz;
 	public String cacheSocket;
+	public void 
 
 }

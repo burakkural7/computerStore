@@ -11,5 +11,7 @@ public class GraphicCard {
 		System.out.println(this.name.toUpperCase());
 		System.out.println(" "this.memory+"GByte "+this.bit+"bit"+(this.hdmi?" HDMI":"")+(this.vga?" VGA"")+ "Marka:Burakonaldo");
 	}
-			
+			public void printHdmi() {
+				System.out.println(this.hdmi?"var":"yok");
+			}
 }
